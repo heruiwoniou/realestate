@@ -1,15 +1,15 @@
 <template>
   <div class="home">
-    <nav>
+    <nav class="main-nav">
       <ul>
         <li class="nav-item nav-drinks">
-          <a href="javascript:;"></a>
+          <router-link to="drinks"></router-link>
         </li>
         <li class="nav-item nav-information">
-          <a href="javascript:;"></a>
+          <router-link to="information"></router-link>
         </li>
         <li class="nav-item nav-prospectus">
-          <a href="javascript:;"></a>
+          <router-link to="prospectus"></router-link>
         </li>
         <li class="nav-item nav-call">
           <a href="javascript:;"></a>
@@ -36,7 +36,7 @@ export default {
   height: 1032px;
 }
 
-nav {
+.main-nav {
   height: 1032px;
 }
 
